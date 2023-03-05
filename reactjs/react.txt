@@ -1,8 +1,21 @@
-## References
+
+--------Steps(Windows)---------
+1.Install react
+2. Create a new React project: Once the React installation is successful, we can create a new React project using create-react-app command. Here, I choose "reactjs " name for my project.
+C:\Users\Sanjana\OneDrive\Desktop\reactjs_project> npx create-react-app reactjs
+3. The above command will take some time to install the React and create a new project with the name "reactjs”. Now the React project is created successfully on our system. Now, we need to start the server so that we can access the application on the browser. 
+Type the following command in the terminal window.
+$ cd reactjs 
+$ npm start
+4. NPM is a package manager which starts the server and access the application at default server http://localhost:3000 . The react window opens in the browser
+5. Now u can make changes in the App.js file from the src folder to reflect the webpage you want to create.
+
+
+---------------------- References-------------------------------------
 1. React Website Tutorial - Beginner React JS Project Fully Responsive
 https://www.youtube.com/watch?v=I2UBjN5ER4s
 2. https://github.com/briancodex/react-website-v1/tree/starter
 3. Checkout Form-  https://www.w3schools.com/howto/howto_css_checkout_form.asp
 4. Building a SignUp form using React
-https://www.knowledgehut.com/blog/web-development/building-asign-up-form-using-react?hl=en_US
+https://www.knowledgehut.com/blog/web-development/building-a-sign-up-form-using-react?hl=en_US
 5. StackOverflow
