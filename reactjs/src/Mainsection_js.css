@@ -1,0 +1,139 @@
+
+img{
+   width:100%;
+    height: 100%;
+    position:absolute;
+    z-index:-1;
+    background-repeat: no-repeat;
+}
+
+.main-container{
+    height: 91vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+    margin-top:-50px;
+}
+.text_content{
+    color:#000;
+    font-size: 25px;
+    margin-top: 150px;
+    
+}
+.main-btn-signup{
+    margin-top: 45px;
+}
+.main-btn-signup>p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+.main-btn-signup .btn_signup{
+    margin:6px ;
+}
+.btn_signup{
+    padding: 20px 20px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 12px;
+    border: 2px solid black;
+    background-color: transparent;
+    font-weight: 700;
+}
+.btn_signup:hover{
+    background: transparent;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.221);
+}
+.btn_signup:active{
+    transform: translateY(4px);
+}
+
+@media screen and (max-width:960px){
+    .text_content{
+        font-size: 1rem;
+        margin-top: 200px;
+    } 
+    .btn-mobile-signup{
+        display: block;
+        text-decoration: none;
+    }  
+    .btn_signup{
+        width:100%;
+    } 
+    
+}
+.gallery-container{
+    background-color:#fff;
+}
+.gallery-container>h2{
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+}
+div.gallery {
+    border: 1px solid transparent;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 22%;
+    height: 350px;
+    padding: 2px;
+    margin:10px;
+    border: #000 solid 4px;
+  }
+  
+  div.desc {
+    margin-top:350px;
+    padding: 15px;
+    text-align: center;
+    width:100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .responsive {
+    padding: 10px 10px;
+    float: left;
+    width: 24.99999%;
+  }
+  @media only screen and (max-width: 960px) {
+    .responsive {
+      width: 33%;
+      margin: 6px 0;
+    }
+    div.gallery img{
+        width:30%;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 50%;
+      margin: 6px 0;
+    }
+    div.gallery img{
+        width:50%;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+    div.gallery img{
+        width:100%;
+    }
+  }
+  
+  

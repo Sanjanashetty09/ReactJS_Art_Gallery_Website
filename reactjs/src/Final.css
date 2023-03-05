@@ -1,0 +1,79 @@
+.final-container{
+    margin:150px;
+    margin-left:400px;
+    
+}
+.final-subcontainer{
+    border: 2px solid black;
+    width: 700px;
+    height: 400px;
+    
+}
+.text-font{
+    text-align: center;
+    font-family:cursive;
+    font-size: 100px;
+}
+.message-final{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.contact-us-page{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.btn-gohome{
+    margin-left:270px ;
+    
+}
+.btn-go{
+    padding: 15px;
+    font-size: 20px;
+    font-family: cursive;
+    background-image: linear-gradient(to right top, #4fe6f1, #36dbfc, #3aceff, #55c0ff, #76b0ff, #89a4ff, #a296fc, #bd85f1, #cc77e8, #db66db, #e952cc, #f538b9);
+}
+.text-font-sub{
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+}
+@media (max-width:1200px){
+    .final-container{
+        margin-left:150px;
+    }
+    .final-subcontainer{
+        width:700px;
+    }
+}
+@media (max-width:780px){
+    .final-container{
+        margin-left:100px;
+    }
+    .final-subcontainer{
+        width:600px;
+    }
+    .btn-gohome{
+        margin-left:210px;
+    }
+}
+@media (max-width:450px){
+    .final-container{
+        margin-left:50px;
+        margin-top: 50px;
+    }
+    .final-subcontainer{
+        width:350px;
+        height:350px;
+    }
+    .text-font{
+        font-size: 50px;
+    }
+    .message-final{
+        font-size: 20px;
+    }
+    .btn-gohome{
+        margin-left:100px;
+    }
+}
