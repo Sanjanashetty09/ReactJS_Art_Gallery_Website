@@ -1,0 +1,7 @@
+1. React Website Tutorial - Beginner React JS Project Fully Responsive
+https://www.youtube.com/watch?v=I2UBjN5ER4s
+2. https://github.com/briancodex/react-website-v1/tree/starter
+3. Checkout Form-  https://www.w3schools.com/howto/howto_css_checkout_form.asp
+4. Building a SignUp form using React
+https://www.knowledgehut.com/blog/web-development/building-asign-up-form-using-react?hl=en_US
+5. StackOverflow
